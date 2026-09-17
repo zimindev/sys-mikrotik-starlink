@@ -50,7 +50,7 @@ The configuration provides:
                 │          │          │
                PC       Switch       Wi-Fi
                                       │
-                                  SSID: Orion
+                                  SSID: Name-WIFI
 ```
 
 ---
@@ -240,7 +240,7 @@ Create the Wi-Fi configuration:
 /interface wifi configuration add \
     name=wifi-LAN \
     mode=ap \
-    ssid="Orion" \
+    ssid="Name-WIFI" \
     security=wifi-security \
     datapath.bridge=bridge-LAN
 ```
@@ -673,7 +673,7 @@ After configuration:
 | 🌍 DNS             | `1.1.1.1`, `8.8.8.8`           |
 | 🔄 NAT             | Masquerade                     |
 | 📶 Wi-Fi           | 2.4 GHz + 5 GHz                |
-| 📡 SSID            | `Orion`                        |
+| 📡 SSID            | `Name-WIFI`                        |
 | 🔥 Firewall        | Enabled                        |
 | 🛡️ WAN management | Blocked                        |
 | 🖥️ LAN management | Allowed                        |
